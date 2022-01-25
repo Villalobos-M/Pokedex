@@ -1,0 +1,13 @@
+.container-pokedex-search {
+     background-color: rgba(177, 184, 219, 0.527);
+     padding: 1rem;
+     height: 100vh;
+}
+.ul-search {
+     margin-top: 8rem;
+}
+@media screen and (min-width: 600px) {
+     .container-pokedex-search {
+          padding: 3rem;
+     }
+}

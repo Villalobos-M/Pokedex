@@ -1,0 +1,271 @@
+.first-section-id {
+     height: 100%;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     position: relative;
+}
+.first-section-cont {
+     height: 35%;
+     width: 100%;
+     background-color: rgb(238, 231, 231);
+     position: relative;
+}
+.second-section-cont {
+     height: 65%;
+     width: 100%;
+     background-color: rgb(238, 231, 231);
+}
+.container-back {
+     display: flex;
+     align-items: flex-start;
+     padding-top: 2rem;
+     height: 100%;
+}
+.fa-arrow-alt-circle-left {
+     color: rgb(44, 43, 43);
+}
+.img-pokemin,
+.info {
+     margin-left: 1.5rem;
+}
+.info {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+.info-cont {
+     display: flex;
+}
+.first-section-id > .info-cont > img {
+     height: 140px;
+}
+.btn-card-id {
+     position: absolute;
+     bottom: 80%;
+     left: 5%;
+}
+.second-section-id {
+     height: 100%;
+     width: 100%;
+     border-radius: 2rem 2rem 0 0;
+     padding: 1rem 0 5px 0;
+     display: flex;
+     justify-content: space-around;
+     display: flex;
+     flex-direction: column;
+}
+.pokemonId-section {
+     height: 100vh;
+}
+.first-article {
+     height: 44%;
+     display: flex;
+     justify-content: space-around;
+}
+.second-articlet {
+     height: 46%;
+     padding: 0px 2rem;
+     padding-top: 3px;
+}
+.porcent > p {
+     text-align: center;
+}
+.therd-article {
+     height: 10%;
+     padding: 7px;
+     display: flex;
+     margin: 0 0 3px 1.3rem;
+}
+.types-container {
+     display: flex;
+}
+.types-container > p {
+     margin: 3px 0 0 1.5rem;
+}
+
+.normal {
+     background-color: rgb(206, 197, 159);
+}
+.grass {
+     background-color: rgba(51, 145, 51, 0.719);
+}
+.fighting {
+     background-color: rgba(83, 36, 44, 0.849);
+}
+.poison {
+     background-color: rgba(116, 40, 46, 0.87);
+}
+.ground {
+     background-color: rgba(105, 55, 33, 0.808);
+}
+.rock {
+     background-color: hsla(0, 2%, 35%, 0.836);
+}
+.bug {
+     background-color: rgba(173, 216, 87, 0.884);
+}
+.ghost {
+     background-color: rgba(151, 158, 216, 0.822);
+}
+.steel {
+     background-color: rgb(112, 118, 124);
+}
+.fire {
+     background-color: rgba(223, 31, 17, 0.836);
+}
+.water {
+     background-color: rgba(120, 154, 185, 0.788);
+}
+.electric {
+     background-color: rgba(25, 62, 226, 0.836);
+}
+.psychic {
+     background-color: rgb(228, 184, 215);
+}
+.ice {
+     background-color: rgb(138, 170, 218);
+}
+.dragon {
+     background-color: rgb(180, 118, 89);
+}
+.dark {
+     background-color: rgba(27, 25, 25, 0.692);
+}
+.fairy {
+     background-color: rgba(196, 127, 196, 0.829);
+}
+.porcent {
+     display: flex;
+     margin-bottom: 3px;
+     padding-left: 5px;
+     border-bottom: solid 1px rgba(71, 73, 71, 0.877);
+}
+.porcent > p,
+h4 {
+     width: 50%;
+     padding: 0 0 1px 3px;
+}
+.porcent > h4 {
+     margin-right: 4px 0;
+     border-right: none;
+}
+.size {
+     margin-top: 5px;
+}
+.stats {
+     margin-bottom: 5px;
+}
+@media screen and (min-width: 550px) {
+     .second-section-id {
+          height: 80%;
+          width: 70%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          border-radius: 1.5rem;
+     }
+     .pokemonId-section {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+     }
+     .container-first-second {
+          display: flex;
+          flex-direction: row-reverse;
+          justify-content: space-around;
+     }
+     .first-article {
+          display: flex;
+          flex-direction: column;
+          justify-content: start;
+     }
+     .moves {
+          margin-top: 1rem;
+     }
+
+     .therd-article {
+          margin-left: 10%;
+     }
+     .first-section-cont {
+          display: flex;
+          justify-content: center;
+     }
+     .second-section-cont {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+     }
+}
+@media screen and (min-width: 850px) {
+     .first-article {
+          padding-right: 4rem;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: flex-start;
+     }
+     .moves {
+          margin-top: 0;
+     }
+     .size {
+          margin-top: 1.5rem;
+     }
+     .first-article {
+          width: 45%;
+     }
+     .second-articlet {
+          width: 55%;
+          padding: 0 4rem;
+     }
+     .second-section-id {
+          height: 70%;
+          padding: 0;
+     }
+     .container-first-second {
+          height: 65%;
+     }
+     .container-back {
+          width: 10%;
+          justify-content: center;
+     }
+     .info-cont {
+          width: 90%;
+          justify-content: center;
+          padding-right: 10%;
+     }
+     .first-section-cont,
+     .first-section-id {
+          width: 100%;
+     }
+}
+@media screen and (min-width: 1000px) {
+     .second-section-id {
+          width: 70%;
+          height: 80%;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          padding: 5px 0;
+     }
+     .container-input {
+          width: 45%;
+     }
+     .fa-arrow-alt-circle-left {
+          font-size: 23px;
+          color: rgb(48, 48, 48);
+     }
+     .first-section-id > .info-cont > img {
+          height: 240px;
+     }
+     .first-section-cont {
+          height: 45%;
+     }
+     .second-section-cont {
+          height: 55%;
+     }
+     .info-cont {
+          padding-top: 2rem;
+     }
+}
