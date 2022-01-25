@@ -179,7 +179,7 @@ h4 {
      .first-article {
           display: flex;
           flex-direction: column;
-          justify-content: start;
+          justify-content: flex-start;
      }
      .moves {
           margin-top: 1rem;

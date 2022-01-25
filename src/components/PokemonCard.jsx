@@ -7,7 +7,6 @@ import "../styles/pokemonCard.styles.css"
 const PokemonCard = ({name, url}) => {
 
    const [pokemonData, setPokemonData] = useState([]);
-   const [background, setBackground] = useState(null);
    const navigate = useNavigate();
 
    useEffect(() => {
